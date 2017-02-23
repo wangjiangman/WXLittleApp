@@ -1,0 +1,6 @@
+<view class="play">
+    <video src="{{src}}"></video>
+    <view class="videoName v">{{name}}</view>
+    <view class="videoDesc v v2">牵扯版权问题,视频接口暂时没有,你懂得~So~从本地选择吧！</view>
+    <button  type="primary" size="primary" bindtap="bindButtonTap">获取视频</button>
+</view>

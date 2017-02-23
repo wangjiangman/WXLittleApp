@@ -1,0 +1,21 @@
+page {
+    background-color: #fff;
+}
+
+.compass {
+    width:700rpx;
+    height:700rpx;
+    margin: 5rpx auto
+}
+
+.arrow {
+    width:70rpx;
+    height:70rpx;
+    margin: 10rpx auto
+}
+
+.direction-text {
+    font-size: 60rpx;
+    color: #6b4226;
+    margin: 40rpx 80rpx;
+}

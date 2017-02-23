@@ -1,0 +1,12 @@
+<view style="display:flex;">
+    <image class="arrow" src="../../../image/arrow.png"></image>
+</view>
+<view style="display:flex;" animation="{{animationData}}">
+    <image class="compass" src="../../../image/compass.png"></image>
+</view>
+<view class="direction-text">
+ <text style="display:flex;">位置 {{direction}}°</text>
+ <text style="display:flex;">{{'东经 ' + location.longitude}}</text>
+ <text style="display:flex;">{{'北纬 ' + location.latitude}}</text>
+ <button bindtap="rotate" hidden="true">旋转</button>
+</view>
